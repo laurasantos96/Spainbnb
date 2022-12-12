@@ -1,0 +1,242 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpainBnb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./javascript.js">
+    <link rel="stylesheet" href="./rural.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img src="./media/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-hov navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item opcion-nav">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item  opcion-nav">
+                <a class="nav-link" href="#">Ofertas</a>
+              </li>
+            
+              <li class="nav-item dropdown  opcion-nav">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acceso
+                </a>
+                <ul class="dropdown-menu  opcion-nav">
+                  <li><a class="dropdown-item" href="#">Inicio sesión</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Regístrate</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex " role="search">
+                
+                <a href="./index.html"><img src="./media/localizador.png" style="height: 35px; width: 35px;" alt=""></a>
+
+
+              <input class="form-control me-2" type="search" placeholder="City" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <main>
+        <div class="iconos-opcion">
+            <div class="opc-indiv">
+                <img src="./media/montaña.png" class="icons" style="height: 30px; width: 30px" alt="">
+                <a class="espacios" href="./rural.html">Rural</a>
+            </div>
+            <div>
+                <img src="./media/space.png" class="icons" style="height: 30px; width: 30px" alt="">
+                <a class="espacios" href="./atipico.html">Atípico</a>
+            </div>
+            <div>
+                <img src="./media/city.png" class="icons" style="height: 30px; width: 30px" alt="">
+                <a class="espacios" href="./ciudad.html">Ciudad</a>
+            </div>
+            <div>
+                <img src="./media/tiendacampaña.png" class="icons" style="height: 30px; width: 30px" alt="">
+                <a class="espacios" href="./camping.html">Camping</a>
+            </div>
+            <div>
+                <img src="./media/castillo.png" class="icons" style="height: 30px; width: 30px" alt="">
+                <a class="espacios" href="./historicas.html">Históricas</a>
+            </div>
+            <div>
+                <img src="./media/isla.png" class="icons" style="height: 30px; width: 30px" alt="">
+                <a class="espacios" href="./islas.html">Islas</a>
+            </div>
+        </div>
+        
+
+    </main>
+    
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <a href="./rural.html"><img src="./media/rural.jpg" class="d-block w-100" alt="..."></a>
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="./atipico.html"><img src="./media/peculiar.jpg" class="d-block w-100" alt="..."></a>
+        
+          </div>
+          <div class="carousel-item">
+            <a href="./ciudad.html"><img src="./media/city.jpg" class="d-block w-100" alt="..."></a>
+            
+          </div>
+
+          <div class="carousel-item">
+           <a href="./camping.html"> <img src="./media/camping.jpg" class="d-block w-100" alt="..."></a>
+            
+          </div>
+          <div class="carousel-item">
+          <a href="./historicas.html">  <img src="./media/castillo.jpg" class="d-block w-100" alt="..."></a>
+            
+          </div>
+
+          <div class="carousel-item">
+           <a href="./islas.html"> <img src="./media/beautiful.jpg" class="d-block w-100" alt="..."></a>
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="footer-basic" >
+        <footer>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/laura-santos-0b9586188/">
+                <i  class="icon icon-social ion-social-instagram">
+                  <img src="./media/linkedin.png" alt="" style="width:2.4rem;">
+                </i>
+              </a>
+              <a href="https://github.com/laurasantos96">
+                <i class="icon icon-social ion-social-snapchat">
+                  <img src="./media/github.png" alt="" style="width:2.5rem;">
+                </i>
+              </a>
+                <a href="https://www.behance.net/rusamilkovich96">
+                  <i class="icon icon-social ion-social-twitter">
+                    <img src="./media/behance.png" alt="" style="width:2.5rem;">
+                    <img src="" alt="">
+                  </i>
+                </a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Windbnb © 2018</p>
+        </footer>
+    </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script> 
+    <script>
+      //Secify scroller contents
+      var line=new Array()
+      line[1]="¡Bienvenidx a Windbnb la mejor alternativa a..."
+      line[2]="Ejem...Bueno, ¡no importa! Ahora que estás aquí..."
+      line[3]="Déjame decirte que tenemos un gran catálogo de sitios... "
+      line[4]="Tienes curiosidad...?"
+      line[5]="Pues adelante, ¡todo tuyo!"
+      line[6]="¡Espero que encuentres lo que buscas!"
+      
+      //Specify font size for scoller
+      var ts_fontsize="15px"
+      
+      //--Don't edit below this line
+      
+      var longestmessage=1
+      for (i=2;i<line.length;i++){
+      if (line[i].length>line[longestmessage].length)
+      longestmessage=i
+      }
+      
+      //Auto set scroller width
+      var tscroller_width=line[longestmessage].length
+      
+      lines=line.length-1 //--Number of lines
+      
+      //if IE 4+ or NS6
+      if (document.all||document.getElementById){
+      document.write('<form name="bannerform">')
+      document.write('<input type="text" name="banner" size="'+tscroller_width+'"')
+      document.write(' style=" background-color: '+document.bgColor+'; color:#ff0000; font-family: roboto mono; font-size: '+ts_fontsize+'; font-weight:bold; border: medium none" onfocus="blur()">')
+      document.write('</form>')
+      }
+      
+      temp=""
+      nextchar=-1;
+      nextline=1;
+      cursor="]"
+      function animate(){
+      if (temp==line[nextline] & temp.length==line[nextline].length & nextline!=lines){
+      nextline++;
+      nextchar=-1;
+      document.bannerform.banner.value=temp;
+      temp="";
+      setTimeout("nextstep()",3000)}
+      else if (nextline==lines & temp==line[nextline] & temp.length==line[nextline].length){
+      nextline=1;
+      nextchar=-1;
+      document.bannerform.banner.value=temp;
+      temp="";
+      setTimeout("nextstep()",1000)}
+      else{
+      nextstep()}}
+      
+      function nextstep(){
+      
+      if (cursor=="\\"){
+      cursor="|"}
+      else if (cursor=="|"){
+      cursor="/"}
+      else if (cursor=="/"){
+      cursor="-"}
+      else if (cursor=="-"){
+      cursor="\\"}
+      
+      
+      nextchar++;
+      temp+=line[nextline].charAt(nextchar);
+      document.bannerform.banner.value=temp+cursor
+      setTimeout("animate()",25)}
+      
+      //if IE 4+ or NS6
+      if (document.all||document.getElementById)
+      window.onload=animate
+      </script>  
+      
+</body>
+</html>
